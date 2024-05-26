@@ -1,0 +1,106 @@
+.introduction {
+    margin-top: 120px;
+}
+
+body {
+    background-image: url(table_mountain.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: deeppink;
+    font-size: small;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    width: 80%;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.profile {
+    text-align: center;
+}
+
+.city {
+    display: inline-flex;
+}
+
+.WMG {
+    display: inline-flex;
+}
+
+.eco {
+    display: inline-flex;
+    display: flex;
+    float: right;
+    margin-left: 40px;
+}
+.GOG {
+    display: inline-flex;
+}
+
+@media (min-width:960px) {
+    .subjects {
+        display: flex;
+        color: gold;
+    }
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.historic {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    width: 80%;
+    display: inline-block;
+}
+
+@media (min-width:960px) {
+    .historics {
+        display: flex;
+        color: gold;
+    }
+}
+
+.mandela {
+    display: inline-flex;
+}
+
+.hill {
+    display: inline-flex;
+    display: flex;
+    float: right;
+    margin-left: 40px;
+}
+
+.walter {
+    display: inline-flex;
+}
+.background_image {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 960px) {
+    .container{
+        flex-direction: column;
+        display: block;
+    }  
+}
+@media screen and (max-width: 980px) {
+    .city,
+    .subjects {
+        padding: 10px;
+    }
+}
