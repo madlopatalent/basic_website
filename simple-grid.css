@@ -248,3 +248,11 @@ p {
     max-width: 60rem;
   }
 }
+@media only screen and (max-width: 760px){
+  p {
+    font-size: 0.8em;
+  }
+ .paragraph {
+    float: right !important;
+  }
+}
